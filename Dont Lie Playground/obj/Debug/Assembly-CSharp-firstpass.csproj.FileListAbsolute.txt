@@ -1,0 +1,2 @@
+C:\Users\Jack\Documents\GitHub\Dont Lie Playground\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+C:\Users\Jack\Documents\GitHub\Dont Lie Playground\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
