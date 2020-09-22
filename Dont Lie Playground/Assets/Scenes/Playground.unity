@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 77462978}
   - component: {fileID: 77462982}
   - component: {fileID: 77462981}
-  - component: {fileID: 77462980}
   - component: {fileID: 77462979}
   m_Layer: 0
   m_Name: Waypont 3
@@ -174,19 +173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugDrawRadius: 1
---- !u!135 &77462980
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77462977}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &77462981
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -339,7 +325,6 @@ GameObject:
   - component: {fileID: 212676358}
   - component: {fileID: 212676362}
   - component: {fileID: 212676361}
-  - component: {fileID: 212676360}
   - component: {fileID: 212676359}
   m_Layer: 0
   m_Name: Waypont 2
@@ -375,19 +360,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugDrawRadius: 1
---- !u!135 &212676360
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212676357}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &212676361
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -794,7 +766,6 @@ GameObject:
   - component: {fileID: 1199068359}
   - component: {fileID: 1199068356}
   - component: {fileID: 1199068355}
-  - component: {fileID: 1199068354}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -824,26 +795,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1199068354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199068352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
-  m_JumpPower: 12
-  m_GravityMultiplier: 2
-  m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.1
 --- !u!95 &1199068355
 Animator:
   serializedVersion: 3
@@ -940,7 +891,6 @@ GameObject:
   - component: {fileID: 1404607603}
   - component: {fileID: 1404607607}
   - component: {fileID: 1404607606}
-  - component: {fileID: 1404607605}
   - component: {fileID: 1404607604}
   m_Layer: 0
   m_Name: Waypoint 0
@@ -976,19 +926,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugDrawRadius: 1
---- !u!135 &1404607605
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404607602}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1404607606
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1128,7 +1065,6 @@ GameObject:
   - component: {fileID: 1453141140}
   - component: {fileID: 1453141144}
   - component: {fileID: 1453141143}
-  - component: {fileID: 1453141142}
   - component: {fileID: 1453141141}
   m_Layer: 0
   m_Name: Waypont 4
@@ -1164,19 +1100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugDrawRadius: 1
---- !u!135 &1453141142
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453141139}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1453141143
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1423,7 +1346,6 @@ GameObject:
   - component: {fileID: 2073177016}
   - component: {fileID: 2073177015}
   - component: {fileID: 2073177014}
-  - component: {fileID: 2073177013}
   - component: {fileID: 2073177017}
   m_Layer: 0
   m_Name: Waypoint 1
@@ -1432,19 +1354,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &2073177013
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073177012}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2073177014
 MeshRenderer:
   m_ObjectHideFlags: 0
