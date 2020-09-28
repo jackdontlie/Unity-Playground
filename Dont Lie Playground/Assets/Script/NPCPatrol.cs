@@ -60,6 +60,12 @@ public class NPCPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        NPCWalking();
+        NPCWaiting();
+    }
+
+    private void NPCWalking()
+    {
         //Check if AI is close to destination
         if (_travelling && _navMeshAgent.remainingDistance <= 1.0f)
         {
@@ -79,7 +85,10 @@ public class NPCPatrol : MonoBehaviour
                 _animator.SetBool("Wait", false);
             }
         }
+    }
 
+    private void NPCWaiting()
+    {
         //Check if AI is waiting
         if (_waiting)
         {
@@ -105,7 +114,7 @@ public class NPCPatrol : MonoBehaviour
             _travelling = true;
         }
     }
-
+   
     private void ChangePatrolPoint()
     {
         //Decide if AI switch back to previous waypoint
